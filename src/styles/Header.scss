@@ -1,0 +1,26 @@
+.header {
+    background-color: black;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    .header_contains {
+        display: flex;
+        flex-direction: row;
+        padding: 0 45px;
+        justify-content: space-between;
+        .logo {
+            width: 120px;
+            height: 90px;
+        }
+        .tabs {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .option {
+                color: white;
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
