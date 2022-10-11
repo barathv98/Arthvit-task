@@ -7,7 +7,7 @@
     .contains {
         margin: 90px;
         .text_contains {
-            margin-top: 90px;
+            margin: 90px 0;
             max-width: 550px;
             .main_text {
                 font-size: 48px;
@@ -17,7 +17,9 @@
                 font-weight: 500;
                 color: white;
                 .colored_text {
-                    color: linear-gradient(90deg, #8fffef 25%, #f9f490);
+                    background-color: linear-gradient(90deg, #8fffef 25%, #f9f490);
+                    background-clip: text;
+                    box-decoration-break: clone;
                 }
             }
         }
@@ -45,12 +47,13 @@
             }
         }
         .consent_form {
-            float: left;
+            width: 320px;
             .check_form {
                 display: none;
             }
             .label_text {
                 color: white;
+                font-size: 10px;
             }
         }
     }
